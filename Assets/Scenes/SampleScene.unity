@@ -33937,6 +33937,7 @@ GameObject:
   - component: {fileID: 2018238363646295352}
   - component: {fileID: 8414554623667335187}
   - component: {fileID: 8414554623667335186}
+  - component: {fileID: 8414554623667335188}
   m_Layer: 0
   m_Name: (PC) Mouse
   m_TagString: Untagged
@@ -34008,6 +34009,7 @@ GameObject:
   - component: {fileID: 4937688071836337747}
   - component: {fileID: 4937688071836337749}
   - component: {fileID: 4937688071836337748}
+  - component: {fileID: 4937688071836337750}
   m_Layer: 0
   m_Name: (PC) Monitor (L)
   m_TagString: Untagged
@@ -34901,6 +34903,7 @@ GameObject:
   - component: {fileID: 5530065410932318680}
   - component: {fileID: 5530065410932318682}
   - component: {fileID: 5530065410932318681}
+  - component: {fileID: 5530065410932318683}
   m_Layer: 0
   m_Name: (PC) Teclado
   m_TagString: Untagged
@@ -35688,6 +35691,7 @@ GameObject:
   - component: {fileID: 3950293282499139862}
   - component: {fileID: 3950293282499139861}
   - component: {fileID: 3950293282499139860}
+  - component: {fileID: 3950293282499139863}
   m_Layer: 0
   m_Name: (ESCADA) Gavetas
   m_TagString: Untagged
@@ -36391,6 +36395,28 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
   _forceKinematicDisabled: 0
+--- !u!64 &3950293282499139863
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272754518644677911}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4650039065568887343, guid: 2b1373e1749712644a2949ba2615a934, type: 3}
 --- !u!33 &4126444539645803047
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -36891,6 +36917,28 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
   _forceKinematicDisabled: 0
+--- !u!64 &4937688071836337750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770021455364638726}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6194687798908504694, guid: 2b1373e1749712644a2949ba2615a934, type: 3}
 --- !u!4 &4951781896099597387
 Transform:
   m_ObjectHideFlags: 0
@@ -37564,6 +37612,28 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
   _forceKinematicDisabled: 0
+--- !u!64 &5530065410932318683
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777163273627276004}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3044921878265562308, guid: 2b1373e1749712644a2949ba2615a934, type: 3}
 --- !u!33 &5534962749504166026
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -38402,6 +38472,9 @@ GameObject:
   - component: {fileID: 356119775300110663}
   - component: {fileID: 1864441602617111264}
   - component: {fileID: 592544910251988187}
+  - component: {fileID: 6385228577189731720}
+  - component: {fileID: 6385228577189731719}
+  - component: {fileID: 6385228577189731718}
   m_Layer: 0
   m_Name: (GUARDAROUPA) Gaveta A
   m_TagString: Untagged
@@ -38409,6 +38482,79 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6385228577189731718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6385228577189731717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1bc992571301d4a9602ac95ef4c71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.GrabInteractable
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 0}
+  _rigidbody: {fileID: 6385228577189731720}
+  _grabSource: {fileID: 0}
+  _useClosestPointAsGrabSource: 0
+  _releaseDistance: 0
+  _resetGrabOnGrabsUpdated: 1
+  _physicsGrabbable: {fileID: 0}
+--- !u!114 &6385228577189731719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6385228577189731717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _oneGrabTransformer: {fileID: 0}
+  _twoGrabTransformer: {fileID: 0}
+  _targetTransform: {fileID: 0}
+  _maxGrabPoints: -1
+  _rigidbody: {fileID: 6385228577189731720}
+  _kinematicWhileSelected: 1
+  _throwWhenUnselected: 1
+  _forceKinematicDisabled: 0
+--- !u!54 &6385228577189731720
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6385228577189731717}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 118
+  m_CollisionDetection: 0
 --- !u!23 &6387928604054646831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39609,6 +39755,28 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
   _forceKinematicDisabled: 0
+--- !u!64 &8414554623667335188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742829849097970345}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3748928377381596299, guid: 2b1373e1749712644a2949ba2615a934, type: 3}
 --- !u!33 &8423163224932816583
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -39813,6 +39981,7 @@ GameObject:
   - component: {fileID: 2137892731175504692}
   - component: {fileID: 8876834561296596783}
   - component: {fileID: 8876834561296596782}
+  - component: {fileID: 8876834561296596784}
   m_Layer: 0
   m_Name: (PC) Monitor (R)
   m_TagString: Untagged
@@ -39866,6 +40035,28 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
   _forceKinematicDisabled: 0
+--- !u!64 &8876834561296596784
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876834561296596781}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1051182026765962645, guid: 2b1373e1749712644a2949ba2615a934, type: 3}
 --- !u!1 &8877948751397243261
 GameObject:
   m_ObjectHideFlags: 0
