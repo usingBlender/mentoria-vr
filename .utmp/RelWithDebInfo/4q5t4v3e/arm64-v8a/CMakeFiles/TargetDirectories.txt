@@ -1,0 +1,5 @@
+C:/Users/user.geral/Desktop/EnzoMentoria/My project/.utmp/RelWithDebInfo/4q5t4v3e/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/user.geral/Desktop/EnzoMentoria/My project/.utmp/RelWithDebInfo/4q5t4v3e/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/user.geral/Desktop/EnzoMentoria/My project/.utmp/RelWithDebInfo/4q5t4v3e/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/user.geral/Desktop/EnzoMentoria/My project/.utmp/RelWithDebInfo/4q5t4v3e/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/user.geral/Desktop/EnzoMentoria/My project/.utmp/RelWithDebInfo/4q5t4v3e/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
